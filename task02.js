@@ -5,3 +5,9 @@
 
 const userInput = "42";
 // Try changing to "hello", 10, null, NaN
+
+if (!isNaN(userInput) && typeof(userInput) != "string") {
+    console.log("Yes");
+} else {
+    console.log("No");
+}
